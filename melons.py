@@ -35,7 +35,7 @@ class Squash(Melon):
     """Winter squash."""
 
     def prep(self):
-        """Prep the squash!"""
+        """Prep the squash and paint it green."""
         super().prep()
         robots.painterbot.paint(self)
     pass
